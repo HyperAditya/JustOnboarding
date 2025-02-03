@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import hypervergeLogo from '/home/user/Downloads/HVLogo.jpeg'
+import hypervergeLogo from '/HVLogo.jpeg';
 import './App.css'
 
 function App() {
@@ -49,7 +49,7 @@ function App() {
     <>
       <div>
         <a href="https://vite.dev" target="_blank">
-          <img src={hypervergeLogo} className="logo" alt="Hyperverge logo" />
+          <img src="/HVLogo.jpeg" className="logo" alt="Hyperverge logo" />
         </a>
       </div>
       <h1>Driver Onboarding</h1>
